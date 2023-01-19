@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Enabling Discourse // The Synical Approach</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.109.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="SynfulChaot" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.9110bc9bdb118c0cb98a6bd0d51121744d41a5d71ea287a403be1cb83e88a39e.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Enabling Discourse"/>
+<meta name="twitter:description" content="Now back when I was first considering this blog, a good few years ago, I had no intention of comments. It was purely going to be a place for me to dump my ideas and thoughts and all that. Nothing less. Nothing more.
+As I got to thinking about it, though, I realized that, despite the risks that are inherent in opening yourself up to the feedback of random Intarweb strangers, the benefits outweigh the risks."/>
+
+    <meta property="og:title" content="Enabling Discourse" />
+<meta property="og:description" content="Now back when I was first considering this blog, a good few years ago, I had no intention of comments. It was purely going to be a place for me to dump my ideas and thoughts and all that. Nothing less. Nothing more.
+As I got to thinking about it, though, I realized that, despite the risks that are inherent in opening yourself up to the feedback of random Intarweb strangers, the benefits outweigh the risks." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://SynfulChaot.github.io/posts/enabling-discourse/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-01-18T21:22:11-05:00" />
+<meta property="article:modified_time" content="2023-01-18T21:22:11-05:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://SynfulChaot.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="SynfulChaot" /></a>
+      <span class="app-header-title">The Synical Approach</span>
+      <p>A little bit about a lot and a lot bit about a little</p>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Enabling Discourse</h1>
+      <div class="post-meta">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jan 18, 2023
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          8 min read
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://SynfulChaot.github.io/tags/blogging/">blogging</a>
+              <a class="tag" href="https://SynfulChaot.github.io/tags/giscus/">giscus</a>
+              <a class="tag" href="https://SynfulChaot.github.io/tags/github/">github</a>
+              <a class="tag" href="https://SynfulChaot.github.io/tags/hugo/">hugo</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Now back when I was first considering this blog, a good few years ago, I had no intention of comments.  It was purely going to be a place for me to dump my ideas and thoughts and all that.  Nothing less.  Nothing more.</p>
+<p>As I got to thinking about it, though, I realized that, despite the risks that are inherent in opening yourself up to the feedback of random Intarweb strangers, the benefits outweigh the risks.  I mean <em>sure</em> some people are <em>absolutely awful</em> examples of our species, but at the same time it can be helpful to hear what others think about your content.  Perhaps people might want more details, or sometimes less, or are curious about other things that you may usually cover.  Perhaps someone will correct you, in which case not only you, but also your readers, get to learn new things.  Perhaps they want to point you towards things that are related or that they think you might be interested in.  Or, perhaps, people just want to thank you for your content.  Whatever the reason, comments can be a real boon.</p>
+<p>And, lets be honest, if you don&rsquo;t have comments where you <em>can</em> see them, if enough people are reading your blog then it&rsquo;s likely that they&rsquo;ll start up some comments where you <em>can&rsquo;t</em> &hellip; or at least where you don&rsquo;t know where they are, but the difference there really is trivial if you think about it.</p>
+<p>So without further ado!</p>
+<h3 id="why-giscus">Why giscus?</h3>
+<p>There are a great many commenting systems out there, each one with their own pros and cons.  For myself, though, many of them weren&rsquo;t options at all.  Namely I wanted something simple, secure, no tracking, easy to moderate, and <em>preferably</em> free &hellip; so <em>obviously</em> Disqus wasn&rsquo;t an option, what with it&rsquo;s long and storied history of privacy concerns and security breaches.</p>
+<p>Now I could run through every single option out there that I have looked into, and perhaps sometime I will, but for the moment that would take far too long and I&rsquo;d prefer to focus on giscus and it&rsquo;s spiritual predecessor, utterances.  Both of these caught my attention as they utilize GitHub&rsquo;s built-in functionalities to store and moderate comments.  This way, at least if you&rsquo;re hosting on GitHub Pages, your website and the related comments are all in the same place.  And, even if you&rsquo;re hosting your site elsewhere, you can still utilize a GitHub repo to store and moderate the comments.  Also, both of them <em>can</em> be self-hosted, so if you&rsquo;re willing to do the work then you can have an extremly robust blog with minimal external dependencies.  As for the most important parts: no ads, no tracking, secure, and free.  giscus and utterances, however, differ in one major aspect, each with their own pitfalls.</p>
+<ul>
+<li><a href="https://github.com/utterance/utterances">utterances</a> was the first of the GitHub-based commenting systems.  It takes advantage of GitHub Issues to store the comments and the GitHub API to access and display them.  The main downside comes from the fact that Issues were designed for just that: issues.  As a result, while you <em>can</em> comment you can&rsquo;t have <em>nested</em> comments.  Also, in my opinion, it&rsquo;s more than a bit clumsy to utilize issues to track conversations, but that&rsquo;s really just a matter of preference.</li>
+<li><a href="https://github.com/giscus/giscus">giscus</a>, however, utilizes the much newer Discussions, a feature which is pretty much exactly what it says on the can.  It is, specifically, designed for exactly the kind of role comments hold; to hold dialogue about a specific subject.  In this case, a blog post.  The biggest advantage, however, is that the comments <em>can</em> be nested, even if only one layer deep.  I also find Discussions to be a far better way to interact with and <em>especially</em> to moderate the comments.</li>
+</ul>
+<p>They do both share the same weakness, though &hellip; no anonymous comments.  Sadly all comments require one to have a GitHub account to post.  <a href="https://github.com/giscus/giscus/issues/65">I hope this will change in the future</a>.</p>
+<h3 id="setting-it-up">Setting it up</h3>
+<h4 id="enabling-discussions">Enabling Discussions</h4>
+<p>The easiest step.  Just open up to the repo you&rsquo;re using for comments (which doesn&rsquo;t have to be the same repo as your blog!), jump over to the <code>Settings</code> tab, make sure you&rsquo;re in the <code>General</code> menu on the left, then scroll down to <code>Features</code> and enable <code>Discussions</code>.</p>
+<p><img src="discussions-enable.png" alt="Enabling Discussions"></p>
+<h4 id="cleaning-up-discussions-optional">Cleaning up Discussions (optional)</h4>
+<p>This is entirely an optional step, but as I only really intend on using Discussions to handle comments (and perhaps an occasional Q&amp;A) I really didn&rsquo;t need all the other default categories.  Plus I wanted to have a category <em>specifically</em> for comments instead of just clumsily borrowing the default &lsquo;Announcements&rsquo; channel.</p>
+<p>Defaults:</p>
+<p><img src="discussions-default.png" alt="Default Discussions"></p>
+<p>Custom:</p>
+<p><img src="discussions-custom.png" alt="Custom Discussions"></p>
+<blockquote>
+<p>Make sure your <code>Comments</code> category is set with an <code>Announcement</code> discussion format so only admins and maintainers (and giscus!) can create new discussions.</p>
+</blockquote>
+<h4 id="installing-giscus">Installing giscus</h4>
+<p>Go to <a href="https://github.com/apps/giscus">https://github.com/apps/giscus</a> and choose &lsquo;Install&rsquo;.</p>
+<p><img src="giscus-install-1.png" alt="Installing Giscus"></p>
+<p>From here you simply need to select the repository you want it to be enabled for and, again, choose &lsquo;Install&rsquo;.</p>
+<p><img src="giscus-install-2.png" alt="Installing Giscus (cont.)"></p>
+<h4 id="configuring-giscus">Configuring giscus</h4>
+<p>Configuring giscus is almost as easy as installing it.  Just make your way over to <a href="https://giscus.app/">https://giscus.app/</a></p>
+<p>Enter in your repository here.  It&rsquo;ll let you know if your repo is ready (it should be!).</p>
+<p>Choose your mapping.  My own personal recommendation here is <code>og:title</code>.  It&rsquo;s not very self-explanatory, but <code>&lt;title&gt;</code> is the <em>compiled</em> page title, aka the one that will likely also have the name of your blog in it.  <a href="oops.png">Ask me how I know</a>.  <code>og:title</code> should contain what you are expecting, aka the clean title that will appear in the header of your blog posts.</p>
+<p>To make sure to avoid mistakes in the mapping I also recommend selecting strict title matching as that will embed an &lsquo;invisible&rsquo; hash in the discussion&rsquo;s description (you can see it if you edit the description) that it will match against.</p>
+<p>From here select the category you set up in the previous steps and select the features you prefer.  Now copy the customized <code>&lt;script&gt;</code> block from the page here.  This is what we&rsquo;ll need to implement it on your blog!</p>
+<p><img src="giscus-settings.png" alt="Configuring Giscus"></p>
+<h4 id="adding-giscus-to-your-hugo-blog">Adding giscus to your (Hugo) blog</h4>
+<p>Now this is where it gets fun, <em>especially</em> if you want to do it right &hellip; &lsquo;right&rsquo; being a somewhat relative term, of course.  Please do note that these steps are specifically tailored towards a Hugo blog.  Also note this is if your particular theme does not already have giscus integration built in.</p>
+<p>Now the instructions it gives are to add the <code>&lt;script&gt;</code> block from the previous step to your website&rsquo;s template.  Said template is likely to be located in the following directory:</p>
+<pre tabindex="0"><code>/static/themes/&lt;theme name here&gt;/layouts/_default/single.html
+</code></pre><p>If it is not there, please consult the documentation for your theme.</p>
+<p>Now whilst you <em>could</em> just put that in there, it&rsquo;s best not to directly <em>overwrite</em> the theme files, especially if you plan to keep the theme up to date.  Instead we want to create a theme <em>overrride</em>.  To do that we&rsquo;ll copy the theme <code>single.html</code> file above to the following location:</p>
+<pre tabindex="0"><code>/layouts/_default/single.html
+</code></pre><p>Once there you&rsquo;ll want to edit the file.  Now scroll down to the bottom (or wherever you want the comments to be placed on your page) and add in the full <code>&lt;script&gt;</code> block you copied before.  And that should be it!</p>
+<p>But wait!</p>
+<p>Now that is the way documented on <a href="https://giscus.app/">https://giscus.app/</a>, but there&rsquo;s a better way that gives you more control, better integration, and moves the configuration options to the same place as the rest of your Hugo settings: the <code>config.toml</code> file (or, in my case, the <code>config.json</code> file) in the root of your blog directory.</p>
+<p>Now we still want to edit that <code>single.html</code> file we created a moment ago, but instead of putting in the <code>&lt;script&gt;</code> block directly we want to add this line instead:</p>
+<pre tabindex="0"><code>{{ partial &#34;giscus.html&#34; . }}
+</code></pre><p>Now it&rsquo;s time to create that <code>giscus.html</code> file.  For this we want to create a blank file in the following location:</p>
+<pre tabindex="0"><code>/layouts/partials/giscus.html
+</code></pre><p>No open up that new file and <em>here</em> we <em>would</em> want to paste in that <code>&lt;script&gt;</code> block.</p>
+<p>But.</p>
+<p>That still doesn&rsquo;t achieve our goal yet.  After all, this would do nothing but move the location of the <code>&lt;script&gt;</code> block.  Instead we should copy over the following code block:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{- if isset .Site.Params &#34;giscus&#34; -}}
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;comments-giscus&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://giscus.app/client.js&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">data-repo</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.Params.giscus.repo }}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">data-repo-id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.Params.giscus.repoID }}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">data-category</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.Params.giscus.category }}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">data-category-id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.Params.giscus.categoryID }}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">data-mapping</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.Params.giscus.mapping }}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">data-strict</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.Params.giscus.strict }}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">data-reactions-enabled</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.Params.giscus.reactionsEnabled }}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">data-emit-metadata</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.Params.giscus.emitMetadata }}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">data-input-position</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.Params.giscus.inputPosition }}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">data-theme</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.Params.giscus.theme }}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">data-lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.Params.giscus.lang }}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">data-loading</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.Params.giscus.loading }}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">crossorigin</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.Params.giscus.crossOrigin }}&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">async</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">script</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">noscript</span>&gt;Apologies, but the giscus-powered comments require JavaScript to view.  Sorry!&lt;/<span style="color:#f92672">noscript</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>{{- end -}}
+</span></span></code></pre></div><p>Feel free to change up the text in the <code>&lt;noscript&gt;</code> block to whatever.  That will appear if JavaScript is blocked, and it&rsquo;s always useful to let people know that there <em>are</em> comments available when this occurs.</p>
+<p>Now if you&rsquo;re particularly savvy you might be able to guess what those parameters are referencing.  In case you&rsquo;re newer to things, and as confirmation to both groups, what that is pointing to is specific variables set in the <code>config.toml</code> or <code>config.json</code> file &hellip; or, more accurately, specific variables that <em>will</em> be set.</p>
+<p>Let&rsquo;s get on that!</p>
+<p>Now open up your config file and, if you&rsquo;re using JSON, add the following, filled in, of course, with the values from the <code>&lt;script&gt;</code> block from <a href="https://giscus.app/">https://giscus.app/</a>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;params&#34;</span>: {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;giscus&#34;</span>: {
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;repo&#34;</span>:             <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;repoID&#34;</span>:           <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;category&#34;</span>:         <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;categoryID&#34;</span>:       <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;mapping&#34;</span>:          <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;strict&#34;</span>:           <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;reactionsEnabled&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;emitMetadata&#34;</span>:     <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;inputPosition&#34;</span>:    <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;theme&#34;</span>:            <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;lang&#34;</span>:             <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;loading&#34;</span>:          <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;crossOrigin&#34;</span>:      <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Obviously merge this in with your existing file properly.  I assume if you&rsquo;ve chosen to use JSON you&rsquo;ll understand how to do so.  In case you don&rsquo;t, well, I&rsquo;ll cover JSON soon enough.</p>
+<p>If, instead, you are using the more typical default of TOML, this is instead what you want to add, again with adding in the values from the <code>&lt;script&gt;</code> block as mentioned above:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">giscus</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">repo</span>             = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">repoID</span>           = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">category</span>         = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">categoryID</span>       = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">mapping</span>          = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">strict</span>           = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">reactionsEnabled</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">emitMetadata</span>     = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">inputPosition</span>    = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">theme</span>            = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">lang</span>             = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">loading</span>          = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">crossOrigin</span>      = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span></code></pre></div><p>And with that, congratulations, you should have fully functional comments on your blog!</p>
+
+    </div>
+    <div class="post-footer">
+      <div class="comments-giscus">
+        <script src="https://giscus.app/client.js"
+            data-repo="SynfulChaot/SynfulChaot.github.io"
+            data-repo-id="R_kgDOIw0K2g"
+            data-category="Comments"
+            data-category-id="DIC_kwDOIw0K2s4CToVb"
+            data-mapping="og:title"
+            data-strict="1"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="dark"
+            data-lang="en"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+        </script>
+        <noscript>Apologies, but the giscus-powered comments require JavaScript to view.  Sorry!</noscript>
+    </div>
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

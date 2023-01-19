@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on The Synical Approach</title>
+    <link>https://SynfulChaot.github.io/tags/github/</link>
+    <description>Recent content in github on The Synical Approach</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Jan 2023 21:22:11 -0500</lastBuildDate><atom:link href="https://SynfulChaot.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enabling Discourse</title>
+      <link>https://SynfulChaot.github.io/posts/enabling-discourse/</link>
+      <pubDate>Wed, 18 Jan 2023 21:22:11 -0500</pubDate>
+      
+      <guid>https://SynfulChaot.github.io/posts/enabling-discourse/</guid>
+      <description>Now back when I was first considering this blog, a good few years ago, I had no intention of comments. It was purely going to be a place for me to dump my ideas and thoughts and all that. Nothing less. Nothing more.
+As I got to thinking about it, though, I realized that, despite the risks that are inherent in opening yourself up to the feedback of random Intarweb strangers, the benefits outweigh the risks.</description>
+    </item>
+    
+  </channel>
+</rss>
