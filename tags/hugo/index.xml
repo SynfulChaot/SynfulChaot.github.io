@@ -6,15 +6,28 @@
     <description>Recent content in hugo on The Synical Approach</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Jan 2023 21:22:11 -0500</lastBuildDate><atom:link href="https://SynfulChaot.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2023 02:40:34 -0500</lastBuildDate><atom:link href="https://SynfulChaot.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Customizing Hugo</title>
+      <link>https://SynfulChaot.github.io/posts/customizing-hugo/</link>
+      <pubDate>Fri, 20 Jan 2023 02:40:34 -0500</pubDate>
+      
+      <guid>https://SynfulChaot.github.io/posts/customizing-hugo/</guid>
+      <description>&lt;p&gt;So I knew going in that the theme I had chosen, &lt;a href=&#34;https://github.com/vaga/hugo-theme-m10c&#34;&gt;m10c&lt;/a&gt;, was pretty barebones.  I went with it, still, because it was clean, lightweight, no JS whatsoever, and had &lt;em&gt;a&lt;/em&gt; sidebar.  That being said, I also knew going in that I was going to mod the heck out of this thing to get to where I wanted it to be.  I suppose I just wasn&amp;rsquo;t expecting to need to start at that &lt;em&gt;this&lt;/em&gt; quickly.&lt;/p&gt;
+&lt;p&gt;But.  If I want to get people&amp;rsquo;s attention, if I want to get an audience, then I &lt;em&gt;definitely&lt;/em&gt; needed something a &lt;em&gt;&lt;del&gt;bit&lt;/del&gt; lot&lt;/em&gt; more than the default.&lt;/p&gt;
+&lt;p&gt;And I think I &lt;em&gt;&lt;del&gt;found&lt;/del&gt; made&lt;/em&gt; it.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Enabling Discourse</title>
       <link>https://SynfulChaot.github.io/posts/enabling-discourse/</link>
       <pubDate>Wed, 18 Jan 2023 21:22:11 -0500</pubDate>
       
       <guid>https://SynfulChaot.github.io/posts/enabling-discourse/</guid>
-      <description>Now back when I was first considering this blog, a good few years ago, I had no intention of comments. It was purely going to be a place for me to dump my ideas and thoughts and all that. Nothing less. Nothing more.
-As I got to thinking about it, though, I realized that, despite the risks that are inherent in opening yourself up to the feedback of random Intarweb strangers, the benefits outweigh the risks.</description>
+      <description>&lt;p&gt;Now back when I was first considering this blog, a good few years ago, I had no intention of comments.  It was purely going to be a place for me to dump my ideas and thoughts and all that.  Nothing less.  Nothing more.&lt;/p&gt;
+&lt;p&gt;As I got to thinking about it, though, I realized that, despite the risks that are inherent in opening yourself up to the feedback of random Intarweb strangers, the benefits outweigh the risks.  I mean &lt;em&gt;sure&lt;/em&gt; some people are &lt;em&gt;absolutely awful&lt;/em&gt; examples of our species, but at the same time it can be helpful to hear what others think about your content.  Perhaps people might want more details, or sometimes less, or are curious about other things that you may usually cover.  Perhaps someone will correct you, in which case not only you, but also your readers, get to learn new things.  Perhaps they want to point you towards things that are related or that they think you might be interested in.  Or, perhaps, people just want to thank you for your content.  Whatever the reason, comments can be a real boon.&lt;/p&gt;
+&lt;p&gt;And, lets be honest, if you don&amp;rsquo;t have comments where you &lt;em&gt;can&lt;/em&gt; see them, if enough people are reading your blog then it&amp;rsquo;s likely that they&amp;rsquo;ll start up some comments where you &lt;em&gt;can&amp;rsquo;t&lt;/em&gt; &amp;hellip; or at least where you don&amp;rsquo;t know where they are, but the difference there really is trivial if you think about it.&lt;/p&gt;
+&lt;p&gt;So without further ado!&lt;/p&gt;</description>
     </item>
     
   </channel>

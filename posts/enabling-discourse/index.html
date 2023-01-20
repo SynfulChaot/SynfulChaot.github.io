@@ -1,24 +1,32 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-    <title>Enabling Discourse // The Synical Approach</title>
+    <title>Enabling Discourse | The Synical Approach</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.109.0">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="SynfulChaot" />
-    <meta name="description" content="" />
-    <link rel="stylesheet" href="/css/main.min.9110bc9bdb118c0cb98a6bd0d51121744d41a5d71ea287a403be1cb83e88a39e.css" />
+    <meta name="description" content="Now back when I was first considering this blog, a good few years ago, I had no intention of comments.  It was purely going to be a place for me to dump my ideas and thoughts and all that.  Nothing less.  Nothing more.
+As I got to thinking about it, though, I realized that, despite the risks that are inherent in opening yourself up to the feedback of random Intarweb strangers, the benefits outweigh the risks.  I mean sure some people are absolutely awful examples of our species, but at the same time it can be helpful to hear what others think about your content.  Perhaps people might want more details, or sometimes less, or are curious about other things that you may usually cover.  Perhaps someone will correct you, in which case not only you, but also your readers, get to learn new things.  Perhaps they want to point you towards things that are related or that they think you might be interested in.  Or, perhaps, people just want to thank you for your content.  Whatever the reason, comments can be a real boon.
+And, lets be honest, if you don&rsquo;t have comments where you can see them, if enough people are reading your blog then it&rsquo;s likely that they&rsquo;ll start up some comments where you can&rsquo;t &hellip; or at least where you don&rsquo;t know where they are, but the difference there really is trivial if you think about it.
+So without further ado!" />
+    <meta name="keywords" content="SynfulChaot,blogging,giscus,github,hugo" />
+    <link rel="stylesheet" href="/css/main.min.25973511a5d9fae6264fa66acd7e3e233cd50da55e2746b984e5a41aad03aa13.css" />
 
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Enabling Discourse"/>
-<meta name="twitter:description" content="Now back when I was first considering this blog, a good few years ago, I had no intention of comments. It was purely going to be a place for me to dump my ideas and thoughts and all that. Nothing less. Nothing more.
-As I got to thinking about it, though, I realized that, despite the risks that are inherent in opening yourself up to the feedback of random Intarweb strangers, the benefits outweigh the risks."/>
+<meta name="twitter:description" content="Now back when I was first considering this blog, a good few years ago, I had no intention of comments.  It was purely going to be a place for me to dump my ideas and thoughts and all that.  Nothing less.  Nothing more.
+As I got to thinking about it, though, I realized that, despite the risks that are inherent in opening yourself up to the feedback of random Intarweb strangers, the benefits outweigh the risks.  I mean sure some people are absolutely awful examples of our species, but at the same time it can be helpful to hear what others think about your content.  Perhaps people might want more details, or sometimes less, or are curious about other things that you may usually cover.  Perhaps someone will correct you, in which case not only you, but also your readers, get to learn new things.  Perhaps they want to point you towards things that are related or that they think you might be interested in.  Or, perhaps, people just want to thank you for your content.  Whatever the reason, comments can be a real boon.
+And, lets be honest, if you don&rsquo;t have comments where you can see them, if enough people are reading your blog then it&rsquo;s likely that they&rsquo;ll start up some comments where you can&rsquo;t &hellip; or at least where you don&rsquo;t know where they are, but the difference there really is trivial if you think about it.
+So without further ado!"/>
 
     <meta property="og:title" content="Enabling Discourse" />
-<meta property="og:description" content="Now back when I was first considering this blog, a good few years ago, I had no intention of comments. It was purely going to be a place for me to dump my ideas and thoughts and all that. Nothing less. Nothing more.
-As I got to thinking about it, though, I realized that, despite the risks that are inherent in opening yourself up to the feedback of random Intarweb strangers, the benefits outweigh the risks." />
+<meta property="og:description" content="Now back when I was first considering this blog, a good few years ago, I had no intention of comments.  It was purely going to be a place for me to dump my ideas and thoughts and all that.  Nothing less.  Nothing more.
+As I got to thinking about it, though, I realized that, despite the risks that are inherent in opening yourself up to the feedback of random Intarweb strangers, the benefits outweigh the risks.  I mean sure some people are absolutely awful examples of our species, but at the same time it can be helpful to hear what others think about your content.  Perhaps people might want more details, or sometimes less, or are curious about other things that you may usually cover.  Perhaps someone will correct you, in which case not only you, but also your readers, get to learn new things.  Perhaps they want to point you towards things that are related or that they think you might be interested in.  Or, perhaps, people just want to thank you for your content.  Whatever the reason, comments can be a real boon.
+And, lets be honest, if you don&rsquo;t have comments where you can see them, if enough people are reading your blog then it&rsquo;s likely that they&rsquo;ll start up some comments where you can&rsquo;t &hellip; or at least where you don&rsquo;t know where they are, but the difference there really is trivial if you think about it.
+So without further ado!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://SynfulChaot.github.io/posts/enabling-discourse/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-01-18T21:22:11-05:00" />
@@ -31,6 +39,55 @@ As I got to thinking about it, though, I realized that, despite the risks that a
       <a href="https://SynfulChaot.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="SynfulChaot" /></a>
       <span class="app-header-title">The Synical Approach</span>
       <p>A little bit about a lot and a lot bit about a little</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/SynfulChaot" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>GitHub</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+      </div>
+      
+    
+    
+        
+    
+    
+    
+    
+    
+
+    <div id="tag-cloud" style="padding: 15px 15px ; border-top: 1px solid">
+        
+            
+            
+            
+            
+            <a href="/tags/blogging" style="font-size:1.6309297535714575rem">blogging</a>
+        
+            
+            
+            
+            
+            <a href="/tags/giscus" style="font-size:1rem">giscus</a>
+        
+            
+            
+            
+            
+            <a href="/tags/github" style="font-size:1rem">github</a>
+        
+            
+            
+            
+            
+            <a href="/tags/hugo" style="font-size:1.6309297535714575rem">hugo</a>
+        
+    </div>
+
+
     </header>
     <main class="app-container">
       
@@ -180,7 +237,6 @@ As I got to thinking about it, though, I realized that, despite the risks that a
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">loading</span>          = <span style="color:#e6db74">&#34;&#34;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">crossOrigin</span>      = <span style="color:#e6db74">&#34;&#34;</span>
 </span></span></code></pre></div><p>And with that, congratulations, you should have fully functional comments on your blog!</p>
-
     </div>
     <div class="post-footer">
       <div class="comments-giscus">

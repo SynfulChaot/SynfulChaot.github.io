@@ -6,13 +6,22 @@
     <description>Recent content in Tags on The Synical Approach</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Jan 2023 21:22:11 -0500</lastBuildDate><atom:link href="https://SynfulChaot.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2023 02:40:34 -0500</lastBuildDate><atom:link href="https://SynfulChaot.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blogging</title>
       <link>https://SynfulChaot.github.io/tags/blogging/</link>
-      <pubDate>Wed, 18 Jan 2023 21:22:11 -0500</pubDate>
+      <pubDate>Fri, 20 Jan 2023 02:40:34 -0500</pubDate>
       
       <guid>https://SynfulChaot.github.io/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://SynfulChaot.github.io/tags/hugo/</link>
+      <pubDate>Fri, 20 Jan 2023 02:40:34 -0500</pubDate>
+      
+      <guid>https://SynfulChaot.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
@@ -31,15 +40,6 @@
       <pubDate>Wed, 18 Jan 2023 21:22:11 -0500</pubDate>
       
       <guid>https://SynfulChaot.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://SynfulChaot.github.io/tags/hugo/</link>
-      <pubDate>Wed, 18 Jan 2023 21:22:11 -0500</pubDate>
-      
-      <guid>https://SynfulChaot.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
