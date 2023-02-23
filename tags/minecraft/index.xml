@@ -6,7 +6,16 @@
     <description>Recent content in minecraft on The Synical Approach</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Feb 2023 02:02:46 -0500</lastBuildDate><atom:link href="https://SynfulChaot.github.io/tags/minecraft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Feb 2023 22:22:22 -0500</lastBuildDate><atom:link href="https://SynfulChaot.github.io/tags/minecraft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a (Minecraft) Modpack (pt. 1)</title>
+      <link>https://SynfulChaot.github.io/posts/building-a-modpack-pt.1/</link>
+      <pubDate>Wed, 22 Feb 2023 22:22:22 -0500</pubDate>
+      
+      <guid>https://SynfulChaot.github.io/posts/building-a-modpack-pt.1/</guid>
+      <description>&lt;p&gt;So, as one might expect, there is a lot that goes into building a modpack &amp;hellip; at least if you want to do it right.  And by right, of course, I mean to do a good enough job that yours stands out from the many, &lt;em&gt;many&lt;/em&gt; packs out there.  Unlike what some might say, there is no &amp;lsquo;right&amp;rsquo; way or &amp;lsquo;right&amp;rsquo; style of modpack.  No.  There are just some types that are more suited to one audience and some that are more suited to another.  Or, in the case of some players (incl. myself), both have their own place.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Minecraft and Mods (and Linux)</title>
       <link>https://SynfulChaot.github.io/posts/minecraft-and-mods/</link>

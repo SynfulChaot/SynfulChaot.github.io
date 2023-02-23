@@ -2,31 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://SynfulChaot.github.io/posts/building-a-modpack-pt.1/</loc>
+    <lastmod>2023-02-22T22:22:22-05:00</lastmod>
+  </url><url>
     <loc>https://SynfulChaot.github.io/tags/gaming/</loc>
-    <lastmod>2023-02-02T02:02:46-05:00</lastmod>
+    <lastmod>2023-02-22T22:22:22-05:00</lastmod>
+  </url><url>
+    <loc>https://SynfulChaot.github.io/tags/minecraft/</loc>
+    <lastmod>2023-02-22T22:22:22-05:00</lastmod>
+  </url><url>
+    <loc>https://SynfulChaot.github.io/tags/modded/</loc>
+    <lastmod>2023-02-22T22:22:22-05:00</lastmod>
+  </url><url>
+    <loc>https://SynfulChaot.github.io/posts/</loc>
+    <lastmod>2023-02-22T22:22:22-05:00</lastmod>
+  </url><url>
+    <loc>https://SynfulChaot.github.io/tags/</loc>
+    <lastmod>2023-02-22T22:22:22-05:00</lastmod>
+  </url><url>
+    <loc>https://SynfulChaot.github.io/tags/tcm/</loc>
+    <lastmod>2023-02-22T22:22:22-05:00</lastmod>
+  </url><url>
+    <loc>https://SynfulChaot.github.io/</loc>
+    <lastmod>2023-02-22T22:22:22-05:00</lastmod>
   </url><url>
     <loc>https://SynfulChaot.github.io/tags/linux/</loc>
     <lastmod>2023-02-02T02:02:46-05:00</lastmod>
   </url><url>
-    <loc>https://SynfulChaot.github.io/tags/minecraft/</loc>
-    <lastmod>2023-02-02T02:02:46-05:00</lastmod>
-  </url><url>
     <loc>https://SynfulChaot.github.io/posts/minecraft-and-mods/</loc>
-    <lastmod>2023-02-02T02:02:46-05:00</lastmod>
-  </url><url>
-    <loc>https://SynfulChaot.github.io/tags/modded/</loc>
-    <lastmod>2023-02-02T02:02:46-05:00</lastmod>
-  </url><url>
-    <loc>https://SynfulChaot.github.io/posts/</loc>
-    <lastmod>2023-02-02T02:02:46-05:00</lastmod>
-  </url><url>
-    <loc>https://SynfulChaot.github.io/tags/</loc>
-    <lastmod>2023-02-02T02:02:46-05:00</lastmod>
-  </url><url>
-    <loc>https://SynfulChaot.github.io/tags/tcm/</loc>
-    <lastmod>2023-02-02T02:02:46-05:00</lastmod>
-  </url><url>
-    <loc>https://SynfulChaot.github.io/</loc>
     <lastmod>2023-02-02T02:02:46-05:00</lastmod>
   </url><url>
     <loc>https://SynfulChaot.github.io/tags/blogging/</loc>
