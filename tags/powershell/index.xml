@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>powershell on The Synical Approach</title>
+    <link>https://SynfulChaot.github.io/tags/powershell/</link>
+    <description>Recent content in powershell on The Synical Approach</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jan 2024 21:00:00 -0800</lastBuildDate><atom:link href="https://SynfulChaot.github.io/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wordle</title>
+      <link>https://SynfulChaot.github.io/posts/wordle/</link>
+      <pubDate>Sun, 07 Jan 2024 21:00:00 -0800</pubDate>
+      
+      <guid>https://SynfulChaot.github.io/posts/wordle/</guid>
+      <description>&lt;p&gt;Wordle.  A simple game.  An old viral craze.  An ongoing, albeit personal, obsession.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve always loved word games &amp;hellip; which isn&amp;rsquo;t surprising in the slightest given my passion for the written word, whether the writer is myself or someone else.  Usually that game is Scrabble, a game I&amp;rsquo;ve played with family for many years.  Now I won&amp;rsquo;t say I&amp;rsquo;m a master at Scrabble, or that I could get anywhere near placing in a tournament, but my grandmother &lt;em&gt;did&lt;/em&gt; play in several tournaments and I could &lt;em&gt;usually&lt;/em&gt; hold my own against her.  Even managed wins with some level of regularity.&lt;/p&gt;
+&lt;p&gt;But this isn&amp;rsquo;t about Scrabble.  This is about Wordle.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Wordle | The Synical Approach</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.109.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="SynfulChaot" />
+    <meta name="description" content="Wordle.  A simple game.  An old viral craze.  An ongoing, albeit personal, obsession.
+I&rsquo;ve always loved word games &hellip; which isn&rsquo;t …" />
+    <meta name="keywords" content="SynfulChaot,gaming,powershell,scripting" />
+    <link rel="stylesheet" href="/css/main.min.25973511a5d9fae6264fa66acd7e3e233cd50da55e2746b984e5a41aad03aa13.css" />
+
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://SynfulChaot.github.io/avatar.jpg"/>
+
+<meta name="twitter:title" content="Wordle"/>
+<meta name="twitter:description" content="Wordle.  A simple game.  An old viral craze.  An ongoing, albeit personal, obsession.
+I&rsquo;ve always loved word games &hellip; which isn&rsquo;t surprising in the slightest given my passion for the written word, whether the writer is myself or someone else.  Usually that game is Scrabble, a game I&rsquo;ve played with family for many years.  Now I won&rsquo;t say I&rsquo;m a master at Scrabble, or that I could get anywhere near placing in a tournament, but my grandmother did play in several tournaments and I could usually hold my own against her.  Even managed wins with some level of regularity.
+But this isn&rsquo;t about Scrabble.  This is about Wordle."/>
+
+    <meta property="og:title" content="Wordle" />
+<meta property="og:description" content="Wordle.  A simple game.  An old viral craze.  An ongoing, albeit personal, obsession.
+I&rsquo;ve always loved word games &hellip; which isn&rsquo;t surprising in the slightest given my passion for the written word, whether the writer is myself or someone else.  Usually that game is Scrabble, a game I&rsquo;ve played with family for many years.  Now I won&rsquo;t say I&rsquo;m a master at Scrabble, or that I could get anywhere near placing in a tournament, but my grandmother did play in several tournaments and I could usually hold my own against her.  Even managed wins with some level of regularity.
+But this isn&rsquo;t about Scrabble.  This is about Wordle." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://SynfulChaot.github.io/posts/wordle/" /><meta property="og:image" content="https://SynfulChaot.github.io/avatar.jpg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-01-07T21:00:00-08:00" />
+<meta property="article:modified_time" content="2024-01-07T21:00:00-08:00" />
+
+    
+    <meta name="google-site-verification" content="VhaAlHuR0wIkg3j3C8Gn0FzoP6LOOUnrflfrOJ__yzU" />
+    <meta name="msvalidate.01" content="BACEE5E3BDF1C15DBD22F2CA2E8E4C3A" />
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://SynfulChaot.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="SynfulChaot" /></a>
+      <span class="app-header-title">The Synical Approach</span>
+      <p>A little bit about a lot and a lot bit about a little</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/SynfulChaot" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>GitHub</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+      </div>
+      
+    
+    
+        
+    
+    
+    
+    
+    
+
+    <div id="tag-cloud" style="padding: 15px 15px ; border-top: 1px solid">
+        
+            
+            
+            
+            
+            <a href="/tags/blogging" style="font-size:1.6826061944859854rem">blogging</a>
+        
+            
+            
+            
+            
+            <a href="/tags/gaming" style="font-size:1.8613531161467862rem">gaming</a>
+        
+            
+            
+            
+            
+            <a href="/tags/giscus" style="font-size:1rem">giscus</a>
+        
+            
+            
+            
+            
+            <a href="/tags/github" style="font-size:1rem">github</a>
+        
+            
+            
+            
+            
+            <a href="/tags/hugo" style="font-size:1.6826061944859854rem">hugo</a>
+        
+            
+            
+            
+            
+            <a href="/tags/linux" style="font-size:1rem">linux</a>
+        
+            
+            
+            
+            
+            <a href="/tags/minecraft" style="font-size:1.4306765580733931rem">minecraft</a>
+        
+            
+            
+            
+            
+            <a href="/tags/modded" style="font-size:1.4306765580733931rem">modded</a>
+        
+            
+            
+            
+            
+            <a href="/tags/pax" style="font-size:1rem">pax</a>
+        
+            
+            
+            
+            
+            <a href="/tags/powershell" style="font-size:1rem">powershell</a>
+        
+            
+            
+            
+            
+            <a href="/tags/scripting" style="font-size:1rem">scripting</a>
+        
+            
+            
+            
+            
+            <a href="/tags/seo" style="font-size:1rem">seo</a>
+        
+            
+            
+            
+            
+            <a href="/tags/tcm" style="font-size:1.4306765580733931rem">tcm</a>
+        
+    </div>
+
+
+    </header>
+    <main class="app-container">
+      
+  <article class="post">  
+    <header class="post-header">
+      <h1 class ="post-title">Wordle</h1>
+      <div class="post-meta">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jan 7, 2024
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          4 min read
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://SynfulChaot.github.io/tags/gaming/">gaming</a>
+              <a class="tag" href="https://SynfulChaot.github.io/tags/powershell/">powershell</a>
+              <a class="tag" href="https://SynfulChaot.github.io/tags/scripting/">scripting</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Wordle.  A simple game.  An old viral craze.  An ongoing, albeit personal, obsession.</p>
+<p>I&rsquo;ve always loved word games &hellip; which isn&rsquo;t surprising in the slightest given my passion for the written word, whether the writer is myself or someone else.  Usually that game is Scrabble, a game I&rsquo;ve played with family for many years.  Now I won&rsquo;t say I&rsquo;m a master at Scrabble, or that I could get anywhere near placing in a tournament, but my grandmother <em>did</em> play in several tournaments and I could <em>usually</em> hold my own against her.  Even managed wins with some level of regularity.</p>
+<p>But this isn&rsquo;t about Scrabble.  This is about Wordle.</p>
+<p>My interest in Wordle didn&rsquo;t start early, before the game <em>really</em> took off.  I, like many others, joined in when it started going viral in January of 2022.  At the tail end of it, actually.  January 31st to be precise.</p>
+<p>Now how do I know that was the precise day?  Because I&rsquo;ve been keeping track, of course.  It&rsquo;s useful to know past solutions so you don&rsquo;t accidentally use them again as the game has, to this day, yet to repeat a single word.</p>
+<p>Now it hasn&rsquo;t just been the solutions I&rsquo;ve been keeping track of.  It has been every.  Single.  Word.  To start off with I just screencapped every game and skimmed through the folder when about to try out a word, and that worked well enough for a good months.  As time went on, though, it was getting more and more difficult to not miss one &hellip; especially as I made it a personal challenge to use different starting words every day.  Don&rsquo;t ask why as I couldn&rsquo;t tell you.  Literally.</p>
+<p>So what was my solution?  Same as most times I run into something I need to record and calculate.  I wrote a script.</p>
+<p>Now many might tell me that there are better ways.  One would be to use someone&rsquo;s already existent online tool.  That wouldn&rsquo;t let me look up my prior starting words, though &hellip; and to me it&rsquo;d feel like cheating as I wouldn&rsquo;t know exactly how said tool functioned.  One of those ways would be an Excel spreadsheet, which is my other go-to.  In this particular case, though, I wanted to be able to look up and display some data that would be more than a bit messy in spreadsheet form.  Another would be to do something a bit more &hellip; &lsquo;user-friendly&rsquo; and write up some interactive webpage.  The problem with that is &hellip; I don&rsquo;t know how.  That and that I love scripting and will often use any excuse I can to have some fun.</p>
+<p>With this script I experimented with something I&rsquo;d not done before, and something that is likely not very good practice.  That something is having the script save information <em>in the script itself</em> instead of in an external file.  The reason for this is I intended to share this script with others - others that are less tech savvy than myself - and I didn&rsquo;t want them to accidentally delete the data file and then wonder where all the data went.  <em>I</em> think it&rsquo;s a cool trick.  YMMV.</p>
+<p>I also learned, just recently, that the new Terminal on Windows has a problematic handling of emoji that have variants, which my v.3 version of the script utilized.  In the Bash Terminal on Linux Mint, the characters I was using defaulted to their base version.  In Windows Terminal it defaulted to the emoji variant, which is a different size and can&rsquo;t display with a specific colour, and you can&rsquo;t set it to use the base version.  This, of course, necessitated a change in how I &lsquo;render&rsquo; the results &hellip; which is now a bit less pretty (though just as functional).</p>
+<p>Backstory aside, here&rsquo;s how it works on Windows in its current revision (v.4):</p>
+<p><img src="wordle-script-1.png" alt="Checking and adding a word."></p>
+<p>Now I know it could be a bit more user-friendly, and I certainly don&rsquo;t need the previous starting words on any check <em>but</em> for the starting word, but I&rsquo;ll admit I&rsquo;ve just been too lazy to clean it up further as I work around it.  Since it&rsquo;s in a broken state on Linux atm, for reasons I don&rsquo;t yet know, I&rsquo;ll likely get to updating it soon(ish).</p>
+<p>Current (known) issues:</p>
+<ul>
+<li>Script can&rsquo;t handle an empty saved word list.  Currently &lsquo;initialized&rsquo; with the word from 2024-01-06.</li>
+<li>Script doesn&rsquo;t work properly on Linux, but does on Windows, and I&rsquo;m not sure why.  Previous version <em>did</em> work on Linux, but <em>not</em> Windows, and I&rsquo;m <em>also</em> not sure why.  PowerShell Core can be irritatingly strange sometimes.</li>
+</ul>
+<p>Anyways, if you want to use it yourself, are curious on how it works, or are bored and want to fix it, <a href="https://github.com/SynfulChaot/toolbox/blob/master/Scripts/WordleCheck.ps1">you can find the script here</a>!</p>
+<h4 id="everything-was-running-just-fine-yesterday">Everything was running just fine yesterday.</h4>
+<h5 id="why-is-it-that-you-only-find-out-that-thing-are-broken-when-you-want-to-share-them">Why is it that you only find out that thing are broken when you want to share them?</h5>
+<h6 id="though-it-seems-to-be-an-inverse-effect-when-others-want-me-to-fix-their-broken-stuff--why-cant-my-own-stuff-fix-itself">Though it seems to be an inverse effect when <em>others</em> want me to fix <em>their</em> broken stuff.  Why can&rsquo;t my own stuff fix itself?</h6>
+    </div>
+    <div class="post-footer">
+      <div class="comments-giscus">
+        <script src="https://giscus.app/client.js"
+            data-repo="SynfulChaot/SynfulChaot.github.io"
+            data-repo-id="R_kgDOIw0K2g"
+            data-category="Comments"
+            data-category-id="DIC_kwDOIw0K2s4CToVb"
+            data-mapping="og:title"
+            data-strict="1"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="dark"
+            data-lang="en"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+        </script>
+        <noscript>Apologies, but the giscus-powered comments require JavaScript to view.  Sorry!</noscript>
+    </div>
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
